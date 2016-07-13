@@ -1,0 +1,135 @@
+/* imported fonts */
+@import url(https://fonts.googleapis.com/css?family=Quicksand|Source+Sans+Pro:400,300|Alegreya+Sans+SC:400,300,100,500,700|Alegreya+Sans:400,300,100,500);
+
+.logo {
+    width: 123px;
+    height: 39px;
+}
+
+.nav > a {
+    float: right;
+    padding: 10px;
+    font-family: "Alegreya Sans SC", "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 100px;
+    text-decoration: none;
+    display: inline-block;
+    color: #e68e00;
+}
+
+nav > a:visited {
+    color: #8c8c8c;
+    text-decoration: none;
+}
+
+header {
+    background: 
+        linear-gradient(
+            to bottom,
+            rgba(0,0,0,0),
+            rgba(0,0,0,0.25)),
+        url(Images/img10.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "Alegreya Sans SC", "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    padding-top: 590px;
+    padding-bottom: 20px;
+    font-size: 3rem;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Alegreya Sans SC", "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #808080;
+    letter-spacing: 8px;
+}
+
+h3 {
+    margin-top: 130px;
+    text-align: center;
+    font-family: "Alegreya Sans SC", "Source Sans Pro", sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    color: #ffb566;
+}
+
+h4 {
+    text-align: center;
+    font-family: "Alegreya Sans SC", "Source Sans Pro", sans-serif;
+    text-decoration: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #808080;
+}
+
+p {
+    padding-top: -10px;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: #808080;
+    margin: 10px;
+}
+
+.join {
+    font-family: "Alegreya Sans SC", "Source Sans Pro", sans-serif; 
+    float: right;
+    position: relative;
+    left: -42%;
+    text-align: left;
+}
+
+input {
+    font-family: "Alegreya Sans SC", "Source Sans Pro", sans-serif;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffb566;
+}
+
+.floatleft {
+    height: 300px;
+    width: auto;
+    float: left;
+}
+
+.floatright {
+    height: 300px;
+    width: auto;
+    float: right;
+}
+
+.text {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 10px;
+    text-align: right;
+    display: inline;
+}
+
+.img {
+    height: 32px;
+    width: 32px;
+}
+
+footer > ul > li {
+    margin-right: 10px;
+    list-style-type: none;
+    display: inline;
+}
+
+#footer-align {
+    margin-top: 30px;
+    text-align: right;
+    float: right;
+}
