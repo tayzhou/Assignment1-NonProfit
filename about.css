@@ -124,7 +124,6 @@ footer > ul > li {
 
 #footer-align {
     float: right;
-    position: relative;
     left: -25%;
     text-align: right;
 }

@@ -6,7 +6,7 @@
     height: 39px;
 }
 
-.nav > a {
+.nav a {
     float: right;
     padding: 10px;
     font-family: "Alegreya Sans SC", "Source Sans Pro", sans-serif;
@@ -17,7 +17,7 @@
     color: #e68e00;
 }
 
-nav > a:visited {
+.nav a:visited {
     color: #8c8c8c;
     text-decoration: none;
 }
@@ -86,7 +86,6 @@ section > div > p > a > img {
     padding-left: -5px;
     display: inline-block;
     float: right;
-    position: relative;
 }
 
 .text {
@@ -110,7 +109,6 @@ footer > ul > li {
 #footer-align {
     margin-top: 30px;
     float: right;
-    position: relative;
     left: -30%;
     text-align: right;
 }
